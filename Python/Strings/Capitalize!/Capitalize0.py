@@ -1,4 +1,10 @@
-if __name__ == "__main__":
-  S = str(input())
-  words = S.split(' ')
-  print(' '.join([word.capitalize() for word in words]))
+def solve(s):
+    words = s.split(' ')
+    return ' '.join([word.capitalize() for word in words])
+
+if __name__ == '__main__':
+    s = input()
+
+    result = solve(s)
+
+    print(result)
