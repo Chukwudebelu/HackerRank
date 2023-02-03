@@ -1,0 +1,3 @@
+-- MySQL
+SELECT st.CITY, st.STATE
+FROM STATION st;
