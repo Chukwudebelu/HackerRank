@@ -1,5 +1,3 @@
-import textwrap
-
 def wrap(string, max_width):
     for i in range(1, len(string) // max_width + 1):
         string = string[:i*max_width+i-1] + '\n' + string[i*max_width+i-1:]
