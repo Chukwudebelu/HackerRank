@@ -16,5 +16,6 @@ public class Solution {
           s += S.charAt(i);
         }
         System.out.printf("%s", s);
+        in.close(); // close Scanner object
     }
 }
