@@ -6,4 +6,4 @@ if __name__ == "__main__":
     L = [int(_) for _ in input().split()]
         
     count = Counter(L)
-    print(min(count, key=count.get))
+    print(min(count, key = count.get))
