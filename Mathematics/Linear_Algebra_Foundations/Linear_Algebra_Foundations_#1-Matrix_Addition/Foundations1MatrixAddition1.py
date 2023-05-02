@@ -11,3 +11,4 @@ if __name__ == '__main__':
   print(*c1, sep = '\n')
   print(*c2, sep = '\n')
   print(*c3, sep = '\n')
+  # print(*(c1 + c2 + c3), sep='\n') # 1-line print statement
