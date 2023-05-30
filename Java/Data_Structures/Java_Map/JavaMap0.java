@@ -11,7 +11,7 @@ class Solution {
     // Create a HashMap object - {String=Integer} key/value pairs
     HashMap<String, Integer> phonebook = new HashMap<String, Integer>();
     
-    // Insert the name/phone pairs into HashMap
+    // Insert the username/phone pairs into HashMap
 		for (int i = 0; i < n; i++) {
 			String name = in.nextLine();
 			int phone = in.nextInt();
