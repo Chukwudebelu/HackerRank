@@ -19,5 +19,8 @@ public class Solution {
     System.out.println("India: " + india);
     System.out.println("China: " + china);
     System.out.println("France: " + france);
+    
+    // Close Scanner Object
+    scanner.close();
   }
 }
