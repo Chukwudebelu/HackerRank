@@ -7,14 +7,13 @@ public class Solution {
     int a[] = new int[n];
     
     // Use a for loop to insert #s in the array
-    for (int j = 0; j < n; j++) {
+    for (int j = 0; j < n; j++)
       a[j] = Integer.parseInt(s.next());
-    }
+    
     s.close(); // Close Scanner object
 
     // Prints each sequential element in array a
-    for (int i = 0; i < a.length; i++) {
-      System.out.println(a[i]);
-    }
+    for (int element : a)
+      System.out.printf("%d\n", element);
   }
 }
