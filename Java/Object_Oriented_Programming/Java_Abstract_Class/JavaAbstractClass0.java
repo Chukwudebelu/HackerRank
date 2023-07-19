@@ -4,7 +4,7 @@ import java.util.*;
 abstract class Book {
 	String title;
 	abstract void setTitle(String s);
-  
+
 	String getTitle() {
 		return title;
 	}
@@ -12,10 +12,10 @@ abstract class Book {
 
 // Write MyBook class here
 class MyBook extends Book {
-  @Override
-  void setTitle(String s) {
-    this.title = s;
-  }
+	@Override
+	void setTitle(String s) {
+		this.title = s;
+	}
 }
 
 public class Main {
@@ -27,6 +27,6 @@ public class Main {
 		new_novel.setTitle(title);
 		System.out.println("The title is: " + new_novel.getTitle());
 
-    sc.close(); // Close Scanner object
+		sc.close(); // Close Scanner object
 	}
 }
