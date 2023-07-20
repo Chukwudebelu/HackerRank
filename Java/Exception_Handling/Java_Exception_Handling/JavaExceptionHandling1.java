@@ -1,3 +1,4 @@
+//!/bin/java
 import java.util.Scanner;
 
 class MyCalculator {
