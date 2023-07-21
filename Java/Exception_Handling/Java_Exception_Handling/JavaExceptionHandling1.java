@@ -34,5 +34,7 @@ public class Solution {
         System.out.println(e);
       }
     }
+
+    in.close(); // Close Scanner object
   }
 }
