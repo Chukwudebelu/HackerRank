@@ -13,7 +13,7 @@ def isPalindromic(x: int) -> bool:
     
 if __name__ == "__main__":
     _ = int(input())
-    lst = map(int, input().split(' '))
+    lst = list(map(int, input().strip().split(' ')))
     all_positive = all([*map(lambda x: x > 0, lst)])
     any_palindrome = any(list(map(isPalindromic, lst)))
     print(all_positive and any_palindrome)
