@@ -9,7 +9,7 @@ import os
 # The function accepts LONG_INTEGER_ARRAY ar as parameter.
 #
 
-def aVeryBigSum(ar: int) -> int:
+def aVeryBigSum(ar: list) -> int:
     # Write your code here
     return sum(ar)
 
