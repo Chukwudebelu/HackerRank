@@ -1,7 +1,7 @@
 #!/bin/python3
 
 if __name__ == "__main__":
-  _ = input().strip()
+  _ = int(input().lstrip().rstrip())
   arr = input().split(' ')
   pos_, neg_, zer_ = [0]*3
 
@@ -13,4 +13,4 @@ if __name__ == "__main__":
     else:
       zer_ = zer_ + 1
 
-  print("%.6f\n%.6f\n%.6f\n" % (pos_, neg_, zer_)
+  print("%.6f\n%.6f\n%.6f\n" % (pos_/_, neg_/_, zer_/_))
