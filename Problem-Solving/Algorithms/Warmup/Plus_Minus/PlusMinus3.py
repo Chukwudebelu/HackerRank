@@ -13,4 +13,4 @@ if __name__ == "__main__":
     else:
       zer_ = zer_ + 1
 
-  print("%.6f\n%.6f\n%.6f\n" % (pos_/_, neg_/_, zer_/_))
+  print("%.6f\n"*3 % (pos_/_, neg_/_, zer_/_), end='')
