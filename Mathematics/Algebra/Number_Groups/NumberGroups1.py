@@ -10,6 +10,6 @@ def sumOfGroup(k: int) -> int:
     return pow(k, 3)
 
 if __name__ == '__main__':
-    k = int(input().rstrip().lstrip)
+    k = int(input().rstrip().lstrip())
     answer = sumOfGroup(k)
     print(answer, end = "\n") 
