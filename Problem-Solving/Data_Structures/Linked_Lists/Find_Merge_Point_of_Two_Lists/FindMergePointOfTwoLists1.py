@@ -1,10 +1,6 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
 
 class SinglyLinkedListNode:
     def __init__(self, node_data):
