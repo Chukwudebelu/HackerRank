@@ -20,4 +20,4 @@ def value_of_S_recursive(L: list) -> int:
 if __name__ == "__main__":
     N = int(input(''))
     List = [int(_) for _ in input().split(' ')]
-    print(value_of_S(List))
+    print(value_of_S_recursive(List))
