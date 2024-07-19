@@ -36,9 +36,9 @@ def insertNodeAtHead(llist: SinglyLinkedList, data: int) -> int:
     new_node = SinglyLinkedListNode(data)
     
     new_node.next = llist # new node should point to head
-    llist = new_node # make head node store new data
+    llist = new_node # reassign head pointer to old linked list
     
-    return new_node
+    return llist
 
 
 if __name__ == '__main__':
