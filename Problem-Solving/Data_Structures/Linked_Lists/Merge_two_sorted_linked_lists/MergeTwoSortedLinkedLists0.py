@@ -40,7 +40,7 @@ def print_singly_linked_list(node, sep, fptr):
 #     SinglyLinkedListNode next
 #
 
-def mergeLists(head1: SinglyLinkedList, head2: SinglyLinkedList) -> SinglyLinkedList:
+def mergeLists(head1: SinglyLinkedListNode, head2: SinglyLinkedListNode) -> SinglyLinkedListNode:
     if (not head1 and not head2):  # Both head1 & head2 are empty linked lists
         return None
     elif (head1 and not head2):  # head2 is empty
