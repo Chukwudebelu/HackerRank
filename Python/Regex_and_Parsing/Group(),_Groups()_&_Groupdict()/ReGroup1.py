@@ -4,6 +4,6 @@
 import re
 
 if __name__ == "__main__":
-    S = input().strip()
+    S = input('').strip(None)
     m = re.search(r'([a-z0-9])\1+', S)
-    print(m.group(1) if m else -1)
+    print(m.group(1)) if m else print(-1)
